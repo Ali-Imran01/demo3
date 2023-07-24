@@ -13,6 +13,9 @@
 
 Route::get('/',                         'PublicController@landing_page')->name('landing_page');
 // Route::get('auth/social',                   'Auth\LoginController@show')->name('social.login');
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});
 
 
 Route::group(['prefix' => 'email'], function(){

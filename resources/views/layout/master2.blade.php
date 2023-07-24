@@ -44,19 +44,22 @@ License: For each use you must have a valid license purchased only from above li
     @stack('plugin-styles')
 
     <!-- common css -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
+    <link href="{{ asset('sass/app.scss') }}" rel="stylesheet" />
     <!-- end common css -->
 
     @stack('style')
 </head>
 
-<body data-base-url="{{ url('/') }}">
+<body data-base-url="{{ url('/') }}" style="padding-top: 70px;">
 
     <script src="{{ asset('assets/js/spinner.js') }}"></script>
 
     <div class="main-wrapper" id="app">
         <div class="page-wrapper full-page">
-            @yield('content')
+            {{-- <div class="container"> --}}
+
+                @yield('content')
+            {{-- </div> --}}
         </div>
     </div>
 

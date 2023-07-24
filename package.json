@@ -19,7 +19,7 @@
         "lodash": "^4.17.21",
         "postcss": "^8.4.12",
         "resolve-url-loader": "^5.0.0",
-        "sass": "^1.50.0",
+        "sass": "^1.64.0",
         "sass-loader": "^12.6.0",
         "webpack-rtl-plugin": "^2.0.0"
     },
@@ -28,6 +28,7 @@
         "@popperjs/core": "^2.11.5",
         "ace-builds": "^1.4.14",
         "animate.css": "^4.1.1",
+        "aos": "^2.3.4",
         "apexcharts": "^3.35.0",
         "bootstrap": "^4.6.2",
         "bootstrap-colorpicker": "^3.4.0",

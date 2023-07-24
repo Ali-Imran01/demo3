@@ -64,6 +64,12 @@ return [
             'url' => env('AWS_URL'),
         ],
 
+        'ProfilePicture' => [
+            'driver' => 'local',
+            'root' => public_path().'/storage/profilePictures',
+            'url' => env('APP_URL').'/storage/profilePictures',
+        ],
+
     ],
 
 ];

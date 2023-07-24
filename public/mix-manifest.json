@@ -1,5 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
     "/assets/plugins/feather-icons/feather-sprite.svg": "/assets/plugins/feather-icons/feather-sprite.svg",
     "/assets/plugins/feather-icons/feather.js": "/assets/plugins/feather-icons/feather.js",
     "/assets/plugins/feather-icons/feather.js.map": "/assets/plugins/feather-icons/feather.js.map",
